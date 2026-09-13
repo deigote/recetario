@@ -242,7 +242,7 @@
         "fat": 34.4
       },
       "source": "https://empresa.nestle.es/sites/g/files/pydnoa431/files/2023-02/72582-nutricional-2023.pdf",
-      "notes": "Ficha oficial Nestlé 2023, p. 16. Producto indicado en la captura MFP, 40 g por lote; confirmar si es la tableta realmente utilizada. Consultada 2026-09-13."
+      "notes": "Ficha oficial Nestlé 2023, p. 16. El usuario confirma que era esta tableta en la captura, pero la varía; se conserva como referencia nutricional sin pretender que todas las tabletas sean equivalentes. Consultada 2026-09-13."
     },
     "suprema_semi": {
       "name": "Leche Suprema semidesnatada",
@@ -453,7 +453,7 @@
     {
       "id": "helado-chocolate",
       "title": "Helado de chocolate",
-      "description": "Base de chocolate y praliné en Thermomix, para congelar y terminar en la Ninja CREAMi.",
+      "description": "Base de chocolate en Thermomix, para congelar y terminar en la Ninja CREAMi.",
       "category": "Postres",
       "photo": null,
       "defaultServings": 4,
@@ -470,6 +470,13 @@
           "quantity": 5.0,
           "unit": "g",
           "grams": 5.0
+        },
+        {
+          "food": "erythritol",
+          "quantity": 5,
+          "unit": "g",
+          "grams": 5,
+          "note": "Cantidad aproximada recordada; ajustar al gusto"
         },
         {
           "food": "suprema_semi",
@@ -499,13 +506,14 @@
           "food": "chocolate_praline",
           "quantity": 10.0,
           "unit": "g",
-          "grams": 10.0
+          "grams": 10.0,
+          "note": "Puedes variar la tableta; referencia de macros: praliné Nestlé Postres. Prefieres un chocolate algo más dulce que para comer solo."
         }
       ],
       "steps": [
         {
-          "title": "Mezcla la yema y el azúcar",
-          "text": "Pon la yema y el azúcar moreno en el vaso de la Thermomix. Mezcla sin calor hasta que queden integrados."
+          "title": "Mezcla la yema y los endulzantes",
+          "text": "Pon la yema, el azúcar moreno y el eritritol en el vaso de la Thermomix. Mezcla sin calor hasta que queden integrados; termina de disolver los endulzantes al calentar la base."
         },
         {
           "title": "Incorpora la base en frío",
@@ -517,7 +525,7 @@
         },
         {
           "title": "Funde el chocolate y emulsiona",
-          "text": "Desactiva el calentamiento y añade el chocolate praliné troceado. Remueve hasta que se funda con el calor residual y la mezcla quede lisa. Si aún necesita triturado, deja templar y aumenta la velocidad progresivamente, respetando las indicaciones de tu Thermomix para mezclas calientes."
+          "text": "Desactiva el calentamiento y añade el chocolate elegido, troceado. Remueve hasta que se funda con el calor residual y la mezcla quede lisa. Si aún necesita triturado, deja templar y aumenta la velocidad progresivamente, respetando las indicaciones de tu Thermomix para mezclas calientes."
         },
         {
           "title": "Enfría y congela · al menos 24 h",
@@ -525,13 +533,13 @@
         },
         {
           "title": "Procesa y sirve",
-          "text": "Monta la tarrina congelada según el manual de tu Ninja y procesa con GELATO, como punto de partida para esta base con yema. Si queda desmigado, usa RE-SPIN. Reparte el lote en las raciones elegidas; el volumen del tarro no determina los macros por ración."
+          "text": "Monta la tarrina congelada según el manual de tu Ninja y procesa con LITE ICE CREAM / Helado light, el programa recomendado por Ninja para bases con edulcorantes. Si queda desmigado, usa RE-SPIN. Reparte el lote en las raciones elegidas; el volumen del tarro no determina los macros por ración."
         }
       ],
       "nutritionTargets": {
         "perServing": null
       },
-      "nutritionNote": "Estimación con etiquetas y referencias; skyr pendiente de confirmar. La captura original de MFP indica 168 kcal, 8,4 g de proteína, 17 g de hidratos y 7,1 g de grasa por ración: se conserva como referencia histórica, no como resultado de los ajustes.",
+      "nutritionNote": "Estimación con praliné Nestlé Postres como referencia; puedes variar el chocolate. Skyr pendiente de confirmar. El eritritol se incluye en los hidratos como polialcohol, con 0 kcal. La captura histórica de MFP, sin eritritol anotado, indicaba 168 kcal, 8,4 g de proteína, 17 g de hidratos y 7,1 g de grasa por ración.",
       "originalMfp": {
         "servings": 4,
         "perServing": {
@@ -543,7 +551,10 @@
       },
       "preparationNotes": {
         "source": "https://www.sharkninja.co.uk/rich-chocolate-gelato/REC4662EU.html",
-        "method": "Adaptación propuesta del método recordado por el usuario y la base de gelato de Ninja (74–79 °C, chocolate fuera del fuego, enfriado y congelación 24 h). No es una receta Thermomix probada: no se han inventado tiempos ni velocidades específicas. La Maizena se dispersa en frío; a 75 °C no se garantiza su gelatinización completa. Modelo y capacidad del tarro pendientes de confirmar."
+        "method": "Adaptación propuesta del método recordado por el usuario y la base de gelato de Ninja (74–79 °C, chocolate fuera del fuego, enfriado y congelación 24 h). No es una receta Thermomix probada: no se han inventado tiempos ni velocidades específicas. La Maizena se dispersa en frío; a 75 °C no se garantiza su gelatinización completa. Modelo y capacidad del tarro pendientes de confirmar.",
+        "erythritol": "Cantidad aproximada recordada por el usuario: tanto como azúcar, 20 g por lote de cuatro raciones, añadidos además del azúcar. Momento propuesto: con yema y azúcar; disolver al calentar. Punto de partida por probar, no fórmula de textura validada. El selector escala cada ingrediente de forma independiente; no vincular automáticamente eritritol y azúcar al editar.",
+        "sweetnessSource": "https://www.cargill.com/doc/1432136521904/formulating-low-sugar-products.pdf",
+        "programSource": "https://ninjakitchenapac.zendesk.com/hc/en-au/articles/5369888572303-Product-Setup-How-to-Use"
       }
     }
   ],

@@ -1,0 +1,379 @@
+{
+  "foods": {
+    "chicken": {
+      "name": "Contramuslo de pollo sin piel",
+      "per100g": {
+        "kcal": 139,
+        "protein": 18.9,
+        "carbs": 0,
+        "fat": 7
+      },
+      "source": "https://www.icbf.gov.co/system/files/tcac_web.pdf",
+      "notes": "Estimación genérica: TCAC ICBF, F075, contramuslo sin piel crudo. Peso de parte comestible sin hueso. Se cuenta toda la grasa: se utiliza en la sartén."
+    },
+    "carrot": {
+      "name": "Zanahoria",
+      "per100g": {
+        "kcal": 40,
+        "protein": 0.9,
+        "carbs": 7.3,
+        "fat": 0.2
+      },
+      "source": "https://www.fen.org.es/storage/app/media/flipbook/mercado-alimentos-fen/006-verduras-hortalizas.pdf",
+      "notes": "FEN, p. 232, por 100 g de porción comestible cruda."
+    },
+    "oil": {
+      "name": "Aceite de oliva",
+      "per100g": {
+        "kcal": 899,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 99.9
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/aceiteoliva.pdf",
+      "notes": "FEN, por 100 g. Proteínas en trazas computadas como 0."
+    },
+    "broth": {
+      "name": "Caldo de pollo Gallina Blanca",
+      "per100g": null,
+      "per100ml": {
+        "kcal": 5,
+        "protein": 0.4,
+        "carbs": 0.2,
+        "fat": 0.3
+      },
+      "source": "https://www.gallinablanca.es/producto/caldo-casero-de-pollo-100-natural/",
+      "notes": "Referencia: Caldo Casero de Pollo 100% Natural, brik estándar. Etiqueta oficial por 100 ml, consultada el 2026-09-12. Cantidad no medida; no incluida en el subtotal."
+    },
+    "udon": {
+      "name": "Fideos udon",
+      "per100g": {
+        "kcal": 122,
+        "protein": 3,
+        "carbs": 26,
+        "fat": 0
+      },
+      "source": "Datos aportados por el usuario",
+      "notes": "Datos de etiqueta aportados por el usuario. Paquete de 200 g; valores por 100 g tal como viene en el envase, antes de cocinar la receta."
+    },
+    "yeast": {
+      "name": "Levadura nutricional HSN Engevita",
+      "per100g": {
+        "kcal": 361,
+        "protein": 50,
+        "carbs": 19,
+        "fat": 5
+      },
+      "source": "https://www.hsnstore.com/marcas/food-series/levadura-nutricional-engevita-en-copos",
+      "notes": "Etiqueta HSN Engevita en copos, versión estándar. Consultada 2026-09-12."
+    },
+    "mushrooms": {
+      "name": "Champiñones",
+      "per100g": {
+        "kcal": 31,
+        "protein": 1.8,
+        "carbs": 4,
+        "fat": 0.3
+      },
+      "source": "https://www.fen.org.es/storage/app/media/imgPublicaciones/informe_frutas_y_hortalizas_fen_2018-v1.pdf",
+      "notes": "FEN 2018, champiñón fresco. Por 100 g de porción comestible."
+    },
+    "oats": {
+      "name": "Copos de avena",
+      "per100g": {
+        "kcal": 379,
+        "protein": 13.2,
+        "carbs": 61.9,
+        "fat": 6.52
+      },
+      "source": "https://www.fen.org.es/storage/app/media/PUBLICACIONES%202017/INFORME%20AVENA_FEN_v2_2017__AvenaFEN2017_ok%201.pdf",
+      "notes": "Referencia genérica FEN: copos de avena secos, tabla 2. Consultada 2026-09-12."
+    },
+    "skim_milk": {
+      "name": "Leche desnatada",
+      "per100g": {
+        "kcal": 35,
+        "protein": 3.4,
+        "carbs": 5,
+        "fat": 0.1
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/lechedesnatada.pdf",
+      "notes": "Referencia genérica FEN por 100 g, sin convertir los 180 g del usuario a ml."
+    },
+    "blueberries_frozen": {
+      "name": "Arándanos congelados",
+      "per100g": {
+        "kcal": 43,
+        "protein": 0.5,
+        "carbs": 7.6,
+        "fat": 0
+      },
+      "source": "https://www.lasirena.es/es/arandanos-88/p",
+      "notes": "Referencia de arándanos congelados sin azúcar añadido de La Sirena; marca del usuario no especificada. Consultada 2026-09-12."
+    },
+    "honey": {
+      "name": "Miel",
+      "per100g": {
+        "kcal": 330,
+        "protein": 0.2,
+        "carbs": 82.5,
+        "fat": 0
+      },
+      "source": "https://www.dia.es/bolleria-reposteria-y-azucar/azucar-miel-y-edulcorantes/p/297",
+      "notes": "Referencia de miel de flores Mielove de Dia; marca del usuario no especificada. Consultada 2026-09-12."
+    },
+    "collagen_hsn": {
+      "name": "Colágeno hidrolizado HSN",
+      "per100g": {
+        "kcal": 400,
+        "protein": 100,
+        "carbs": 0,
+        "fat": 0
+      },
+      "source": "https://www.hsnstore.com/marcas/raw-series/colageno-hidrolizado-bovino",
+      "notes": "Estimación para colágeno bovino Raw sin sabor: 10 g de proteína y 40 kcal por 10 g, a partir del producto puro y factor 4 kcal/g de proteína. NO es una transcripción de una tabla nutricional completa. HSN enlaza análisis de colágeno de lote 250314D3: https://www.hsnstore.com/media/wysiwyg/analysis/nutri-collagen-raw-hsn_1.pdf . Variante no confirmada por el usuario."
+    },
+    "creatine": {
+      "name": "Creatina",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "source": "https://www.hsnstore.com/marcas/raw-series/creatina-monohidrato-en-polvo-200-mesh",
+      "notes": "Se asume creatina monohidrato pura sin sabor ni otros ingredientes. Marca del usuario no especificada. Referencia de composición HSN pura. Para el recuento de macros se contabiliza sin aporte energético ni proteínas alimentarias; no contar los 5 g como proteína."
+    },
+    "cinnamon": {
+      "name": "Canela molida",
+      "per100g": {
+        "kcal": 243,
+        "protein": 4,
+        "carbs": 27.5,
+        "fat": 1.2
+      },
+      "source": "https://www.jumbo.cl/canela-molida-190-g/p",
+      "notes": "Referencia de etiqueta Carmencita vendida por Jumbo: hidratos disponibles, excluyen fibra. Marca del usuario no especificada. Se descarta ficha FEN por dato de hidratos ausente y valores de agua/energía inconsistentes para canela seca."
+    },
+    "pastoret_requeson": {
+      "name": "Requesón Pastoret 0%",
+      "per100g": {
+        "kcal": 72,
+        "protein": 12.2,
+        "carbs": 5.2,
+        "fat": 0.4
+      },
+      "source": "https://pastoret.com/producto/requeson-0-m-g-2x1250g/",
+      "notes": "Etiqueta oficial del requesón 0% en pack 2x125 g; versión asumida por el formato y objetivo del usuario. Consultada 2026-09-12."
+    },
+    "erythritol": {
+      "name": "Eritritol",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 100,
+        "fat": 0,
+        "polyols": 100
+      },
+      "source": "https://assets.atida.com/m/65f0d2b80a61a9c/original/NaturGreen-Eritritol-Bio-1-kg.pdf",
+      "notes": "Referencia de eritritol puro NaturGreen; marca exacta del usuario no recordada. Etiqueta: 100 g hidratos, todos polialcoholes, 0 kcal por 100 g. Mantener los polialcoholes dentro de carbs y mostrar su desglose; no atribuir 4 kcal/g al eritritol."
+    }
+  },
+  "recipes": [
+    {
+      "id": "udon-pollo-verduras",
+      "title": "Udon con pollo y verduras",
+      "description": "Verduras todavía crujientes, contramuslo dorado y udon terminado al vapor, en la misma sartén.",
+      "photo": "photos/udon.jpg",
+      "ingredients": [
+        {
+          "food": "chicken",
+          "quantity": 150,
+          "unit": "g",
+          "grams": 150,
+          "note": "Aprox. · crudo, sin piel ni hueso"
+        },
+        {
+          "food": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "grams": 150,
+          "note": "Aprox."
+        },
+        {
+          "food": "mushrooms",
+          "quantity": 100,
+          "unit": "g",
+          "grams": 100
+        },
+        {
+          "food": "oil",
+          "quantity": 8,
+          "unit": "g",
+          "grams": 8
+        },
+        {
+          "food": "broth",
+          "quantity": null,
+          "unit": "ml",
+          "grams": null,
+          "note": "Un poco, para generar vapor · 5 kcal por 100 ml"
+        },
+        {
+          "food": "udon",
+          "quantity": 0.6666666666666666,
+          "unit": "paquete",
+          "grams": 133.33333333333334,
+          "note": "Paquetes de 200 g"
+        },
+        {
+          "food": "yeast",
+          "quantity": 10,
+          "unit": "g",
+          "grams": 10
+        }
+      ],
+      "steps": [
+        {
+          "title": "Dora el pollo",
+          "text": "Pasa los contramuslos por la sartén con tapa para que suelten su grasa."
+        },
+        {
+          "title": "Saltea las verduras",
+          "text": "Añade las zanahorias y los champiñones, junto con el aceite de oliva. Dales fuego fuerte en la grasa del pollo hasta que empiecen a ablandarse, conservando un punto crujiente."
+        },
+        {
+          "title": "Añade el udon",
+          "text": "Incorpora un poco de caldo de pollo, los fideos udon y la levadura nutricional."
+        },
+        {
+          "title": "Termina al vapor",
+          "text": "Tapa la sartén y deja que el vapor del caldo cocine los udon. Comprueba que los fideos estén a tu gusto y el pollo esté bien cocinado antes de repartir las raciones."
+        }
+      ],
+      "weightBasis": "Pesos antes de cocinar la receta; parte comestible. Udon según peso del envase.",
+      "defaultServings": 3,
+      "category": "Comida"
+    },
+    {
+      "id": "porridge-arandanos-requeson",
+      "title": "Porridge con arándanos y requesón",
+      "description": "Gachas en Crock-Pot, con arándanos congelados y requesón al servir: una mezcla de frío y calor.",
+      "category": "Desayuno",
+      "photo": "photos/porridge.jpg",
+      "weightBasis": "Cantidades antes de preparar el porridge. Avena seca; arándanos congelados; leche pesada en gramos.",
+      "ingredients": [
+        {
+          "food": "oats",
+          "quantity": 30,
+          "unit": "g",
+          "grams": 30
+        },
+        {
+          "food": "skim_milk",
+          "quantity": 180,
+          "unit": "g",
+          "grams": 180
+        },
+        {
+          "food": "blueberries_frozen",
+          "quantity": 100,
+          "unit": "g",
+          "grams": 100,
+          "note": "Al servir, después del microondas"
+        },
+        {
+          "food": "honey",
+          "quantity": 10,
+          "unit": "g",
+          "grams": 10,
+          "note": "Al servir, después del microondas"
+        },
+        {
+          "food": "collagen_hsn",
+          "quantity": 10,
+          "unit": "g",
+          "grams": 10,
+          "note": "Después de la cocción lenta"
+        },
+        {
+          "food": "creatine",
+          "quantity": 5,
+          "unit": "g",
+          "grams": 5,
+          "note": "Sugerencia: mezclar con el requesón al servir · 5 g por ración"
+        },
+        {
+          "food": "erythritol",
+          "quantity": 10,
+          "unit": "g",
+          "grams": 10,
+          "note": "Después de la cocción lenta"
+        },
+        {
+          "food": "cinnamon",
+          "quantity": 5,
+          "unit": "g",
+          "grams": 5,
+          "note": "Después de la cocción lenta"
+        },
+        {
+          "food": "pastoret_requeson",
+          "quantity": 125,
+          "unit": "g",
+          "grams": 125,
+          "note": "Al servir, después del microondas"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Cocina la base · 1 h 30 min",
+          "text": "Pon la avena y la leche desnatada en la Crock-Pot. Tapa y cocina en alta durante una hora y media."
+        },
+        {
+          "title": "Añade y mezcla",
+          "text": "Al terminar la cocción, abre la tapa y añade la canela, el eritritol y el colágeno hidrolizado. Remueve bien. En tu método habitual añades aquí también la creatina; como alternativa, puedes reservarla para mezclarla con el requesón justo al servir."
+        },
+        {
+          "title": "Reparte en tuppers",
+          "text": "Reparte las gachas en raciones iguales. Reserva los arándanos congelados, el requesón y la miel para el momento de comer."
+        },
+        {
+          "title": "Recalienta · 2 min",
+          "text": "A la hora de comer, calienta una ración de gachas en el microondas durante dos minutos, hasta que esté bien caliente."
+        },
+        {
+          "title": "Termina con el contraste frío",
+          "text": "Después del microondas, añade por ración 100 g de arándanos congelados, 125 g de requesón Pastoret y 10 g de miel. Si has reservado la creatina, mezcla los 5 g de esa ración con el requesón justo antes de añadirlo. Así se combina la base caliente con los ingredientes fríos."
+        }
+      ],
+      "nutritionTargets": {
+        "perServing": {
+          "kcal": 300
+        },
+        "notes": "Grasa lo más baja posible y algo de proteína, con flexibilidad."
+      },
+      "nutritionNote": "Referencia: Pastoret 0%, creatina pura y colágeno HSN bovino sin sabor. Por ración, el colágeno se estima en 40 kcal y 10 g de proteína; el resto usa etiquetas y valores de referencia.",
+      "preparationNotes": {
+        "creatine": "Método habitual confirmado: junto con el colágeno al abrir la Crock-Pot. Alternativa sugerida a petición del usuario: con el requesón, justo al consumir, para reducir exposición a calor, humedad durante almacenamiento y recalentamiento. No añadir dos veces. No se ha cuantificado la pérdida en esta receta.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/19635041/"
+      },
+      "defaultServings": 4
+    }
+  ],
+  "nutritionTargets": {
+    "perServing": {
+      "kcal": 600,
+      "carbs": 60,
+      "protein": {
+        "min": 30,
+        "max": 40
+      },
+      "fat": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "notes": "Objetivos aproximados. Preferir el extremo bajo de grasa manteniendo buena palatabilidad."
+  }
+}

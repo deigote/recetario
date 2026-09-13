@@ -455,7 +455,7 @@
       "title": "Helado de chocolate",
       "description": "Base de chocolate en Thermomix, para congelar y terminar en la Ninja CREAMi.",
       "category": "Postres",
-      "photo": null,
+      "photo": "photos/helado-chocolate.jpg",
       "defaultServings": 4,
       "weightBasis": "Cantidades antes de preparar la base; leche medida en ml. Cuatro raciones corresponden al lote original, no a cuatro tarros. Respeta la línea MAX FILL del recipiente.",
       "ingredients": [

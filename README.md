@@ -38,7 +38,7 @@ Preparación del porridge confirmada: avena y leche 90 minutos en alta en Crock-
 
 ## Navegación y fotos
 
-La portada agrupa las recetas por `category` (Desayuno y Comida), con foto y título. El buscador filtra el título al escribir, sin distinguir mayúsculas ni tildes, y conserva la búsqueda al volver desde una receta. La cuadrícula muestra tres columnas en escritorio, dos en tablet y una en móviles estrechos. En la ficha, la foto aparece pequeña junto al título; en pantallas estrechas pasa debajo. Para cambiar las imágenes, sustituye `photos/porridge.jpg` o `photos/udon.jpg`, o actualiza el campo `photo`.
+La portada agrupa las recetas por `category` (Desayuno, Comida y Postres), con foto y título. El buscador filtra el título al escribir, sin distinguir mayúsculas ni tildes, y conserva la búsqueda al volver desde una receta. La cuadrícula muestra tres columnas en escritorio, dos en tablet y una en móviles estrechos. En la ficha, la foto aparece pequeña junto al título; en pantallas estrechas pasa debajo. Para cambiar las imágenes, sustituye `photos/porridge.jpg`, `photos/udon.jpg` o `photos/helado-chocolate.jpg`, o actualiza el campo `photo`.
 
 ## Ajustes temporales al cocinar
 
@@ -50,7 +50,7 @@ En los pasos, las cantidades explícitas por ración pueden usar `{{food_id}}` (
 
 ## Helado de chocolate · Postres
 
-Cantidades originales de MFP para cuatro raciones: 15 g de yema, 20 g de azúcar moreno, 350 ml de leche Suprema semidesnatada, 4 g de Maizena, 25 g de cacao puro desgrasado Valor, 50 g de skyr Milsani y 40 g de chocolate praliné Nestlé Postres. Se guardan divididas entre cuatro y con `defaultServings: 4`. La nueva categoría aparece automáticamente. Foto pendiente: las imágenes aportadas son capturas de MFP, no fotografías del plato.
+Cantidades originales de MFP para cuatro raciones: 15 g de yema, 20 g de azúcar moreno, 350 ml de leche Suprema semidesnatada, 4 g de Maizena, 25 g de cacao puro desgrasado Valor, 50 g de skyr Milsani y 40 g de chocolate praliné Nestlé Postres. Se guardan divididas entre cuatro y con `defaultServings: 4`. La nueva categoría aparece automáticamente. Imagen del plato aportada posteriormente por el usuario: `photos/helado-chocolate.jpg`, visible en portada y ficha. Las capturas de MFP se usaron solo como referencia de ingredientes y macros.
 
 El usuario confirma el praliné de la captura, pero varía la tableta: prefiere un chocolate algo más dulce que para comer solo. Se conserva Nestlé Postres como referencia de macros y se indica en el ingrediente. Modelo/capacidad de CREAMi todavía pendientes. No equiparar cuatro raciones con cuatro tarros, ni masa con volumen. Respetar siempre MAX FILL y repartir sobrante si es necesario. `nutritionTargets: {perServing: null}` evita heredar el objetivo de 600 kcal de las comidas.
 

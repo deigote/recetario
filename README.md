@@ -48,7 +48,7 @@ Los ajustes se mantienen solo en memoria, por receta, incluso al volver desde la
 
 En los pasos, las cantidades explícitas por ración pueden usar `{{food_id}}` (por ejemplo `{{honey}} g de miel`) para reflejar los ajustes. Mantén las unidades y la expresión «por ración» en el texto; los tiempos no se escalan. Evita cantidades fijas en las notas que contradigan los ajustes.
 
-## Helado de chocolate · Postres
+## Helado de chocolate fit · Postres
 
 Cantidades originales de MFP para cuatro raciones: 15 g de yema, 20 g de azúcar moreno, 350 ml de leche Suprema semidesnatada, 4 g de Maizena, 25 g de cacao puro desgrasado Valor, 50 g de skyr Milsani y 40 g de chocolate praliné Nestlé Postres. Se guardan divididas entre cuatro y con `defaultServings: 4`. La nueva categoría aparece automáticamente. Imagen del plato aportada posteriormente por el usuario: `photos/helado-chocolate.jpg`, visible en portada y ficha. Las capturas de MFP se usaron solo como referencia de ingredientes y macros.
 

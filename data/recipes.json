@@ -479,7 +479,7 @@
           "note": "Cantidad aproximada recordada; ajustar al gusto"
         },
         {
-          "food": "suprema_semi",
+          "food": "suprema_skim",
           "quantity": 87.5,
           "unit": "ml",
           "grams": null
@@ -508,6 +508,13 @@
           "unit": "g",
           "grams": 10.0,
           "note": "Puedes variar la tableta; referencia de macros: praliné Nestlé Postres. Prefieres un chocolate algo más dulce que para comer solo."
+        },
+        {
+          "food": "collagen_hsn",
+          "quantity": 2.5,
+          "unit": "g",
+          "grams": 2.5,
+          "note": "Después de fundir el chocolate, con el calentamiento desactivado"
         }
       ],
       "steps": [
@@ -517,15 +524,15 @@
         },
         {
           "title": "Incorpora la base en frío",
-          "text": "Añade la leche y la Maizena y mezcla para dispersar el almidón en frío. Incorpora el cacao tamizado y el skyr; mezcla hasta que no queden grumos."
+          "text": "Añade la leche Suprema desnatada y la Maizena y mezcla para dispersar el almidón en frío. Incorpora el cacao tamizado y el skyr; mezcla hasta que no queden grumos."
         },
         {
           "title": "Calienta con movimiento · 75 °C",
           "text": "Calienta a 75 °C con agitación continua y suave, hasta que toda la base alcance esa temperatura. No hace falta hervir ni conseguir una crema muy espesa. El tiempo depende de la temperatura inicial y del tamaño del lote; no lo multipliques con las raciones."
         },
         {
-          "title": "Funde el chocolate y emulsiona",
-          "text": "Desactiva el calentamiento y añade el chocolate elegido, troceado. Remueve hasta que se funda con el calor residual y la mezcla quede lisa. Si aún necesita triturado, deja templar y aumenta la velocidad progresivamente, respetando las indicaciones de tu Thermomix para mezclas calientes."
+          "title": "Funde el chocolate e incorpora el colágeno",
+          "text": "Desactiva el calentamiento y añade el chocolate elegido, troceado. Remueve hasta que se funda con el calor residual. Añade el colágeno hidrolizado y mezcla hasta que quede integrado y sin grumos. Si aún necesita triturado, deja templar y aumenta la velocidad progresivamente, respetando las indicaciones de tu Thermomix para mezclas calientes."
         },
         {
           "title": "Enfría y congela · al menos 24 h",
@@ -539,7 +546,7 @@
       "nutritionTargets": {
         "perServing": null
       },
-      "nutritionNote": "Estimación con praliné Nestlé Postres como referencia; puedes variar el chocolate. Skyr pendiente de confirmar. El eritritol se incluye en los hidratos como polialcohol, con 0 kcal. La captura histórica de MFP, sin eritritol anotado, indicaba 168 kcal, 8,4 g de proteína, 17 g de hidratos y 7,1 g de grasa por ración.",
+      "nutritionNote": "Versión con Suprema desnatada y colágeno HSN, estimado como proteína pura (400 kcal/100 g). Praliné Nestlé Postres como referencia; puedes variar el chocolate. Skyr pendiente de confirmar. El eritritol se incluye en los hidratos como polialcohol, con 0 kcal.",
       "originalMfp": {
         "servings": 4,
         "perServing": {
@@ -554,7 +561,8 @@
         "method": "Adaptación propuesta del método recordado por el usuario y la base de gelato de Ninja (74–79 °C, chocolate fuera del fuego, enfriado y congelación 24 h). No es una receta Thermomix probada: no se han inventado tiempos ni velocidades específicas. La Maizena se dispersa en frío; a 75 °C no se garantiza su gelatinización completa. Modelo y capacidad del tarro pendientes de confirmar.",
         "erythritol": "Cantidad aproximada recordada por el usuario: tanto como azúcar, 20 g por lote de cuatro raciones, añadidos además del azúcar. Momento propuesto: con yema y azúcar; disolver al calentar. Punto de partida por probar, no fórmula de textura validada. El selector escala cada ingrediente de forma independiente; no vincular automáticamente eritritol y azúcar al editar.",
         "sweetnessSource": "https://www.cargill.com/doc/1432136521904/formulating-low-sugar-products.pdf",
-        "programSource": "https://ninjakitchenapac.zendesk.com/hc/en-au/articles/5369888572303-Product-Setup-How-to-Use"
+        "programSource": "https://ninjakitchenapac.zendesk.com/hc/en-au/articles/5369888572303-Product-Setup-How-to-Use",
+        "collagen": "Variante aceptada por el usuario: sustituir los 350 ml de Suprema semidesnatada del lote original de cuatro raciones por igual volumen de Suprema desnatada y añadir 10 g de colágeno HSN (2,5 g por ración). Mantener skyr y eritritol. Añadir el colágeno después de fundir el chocolate, sin calentamiento activo. Textura pendiente de probar; si queda demasiado helado, revisar la formulación con el usuario. La versión anterior llevaba Suprema semidesnatada y no llevaba colágeno; se conserva como referencia para ajustar tras la prueba."
       }
     }
   ],

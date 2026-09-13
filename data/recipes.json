@@ -301,7 +301,7 @@
           "quantity": 5,
           "unit": "g",
           "grams": 5,
-          "note": "Sugerencia: mezclar con el requesón al servir · 5 g por ración"
+          "note": "Con el colágeno al terminar; alternativa: con el requesón al servir"
         },
         {
           "food": "blueberries_frozen",
@@ -344,7 +344,7 @@
         },
         {
           "title": "Termina con el contraste frío",
-          "text": "Después del microondas, añade por ración 100 g de arándanos congelados, 125 g de requesón Pastoret y 10 g de miel. Si has reservado la creatina, mezcla los 5 g de esa ración con el requesón justo antes de añadirlo. Así se combina la base caliente con los ingredientes fríos."
+          "text": "Después del microondas, añade por ración {{blueberries_frozen}} g de arándanos congelados, {{pastoret_requeson}} g de requesón Pastoret y {{honey}} g de miel. Si has reservado la creatina, mezcla los {{creatine}} g de esa ración con el requesón justo antes de añadirlo. Así se combina la base caliente con los ingredientes fríos."
         }
       ],
       "nutritionTargets": {
@@ -353,7 +353,7 @@
         },
         "notes": "Grasa lo más baja posible y algo de proteína, con flexibilidad."
       },
-      "nutritionNote": "Referencia: Pastoret 0%, creatina pura y colágeno HSN bovino sin sabor. Por ración, el colágeno se estima en 40 kcal y 10 g de proteína; el resto usa etiquetas y valores de referencia.",
+      "nutritionNote": "Referencia: Pastoret 0%, creatina pura y colágeno HSN bovino sin sabor. El colágeno se estima en 400 kcal y 100 g de proteína por 100 g; el resto usa etiquetas y valores de referencia.",
       "preparationNotes": {
         "creatine": "Método habitual confirmado: junto con el colágeno al abrir la Crock-Pot. Alternativa sugerida a petición del usuario: con el requesón, justo al consumir, para reducir exposición a calor, humedad durante almacenamiento y recalentamiento. No añadir dos veces. No se ha cuantificado la pérdida en esta receta.",
         "source": "https://pubmed.ncbi.nlm.nih.gov/19635041/"

@@ -39,3 +39,11 @@ Preparación del porridge confirmada: avena y leche 90 minutos en alta en Crock-
 ## Navegación y fotos
 
 La portada agrupa las recetas por `category` (Desayuno y Comida), con foto y título. El buscador filtra el título al escribir, sin distinguir mayúsculas ni tildes, y conserva la búsqueda al volver desde una receta. La cuadrícula muestra tres columnas en escritorio, dos en tablet y una en móviles estrechos. En la ficha, la foto aparece pequeña junto al título; en pantallas estrechas pasa debajo. Para cambiar las imágenes, sustituye `photos/porridge.jpg` o `photos/udon.jpg`, o actualiza el campo `photo`.
+
+## Ajustes temporales al cocinar
+
+Cada ingrediente muestra un campo editable con los gramos del lote seleccionado (ml para el caldo, cuya etiqueta es por volumen) y sus kcal/P/H/G para esa misma cantidad. El udon se edita en gramos y conserva una equivalencia orientativa en paquetes. Los valores de cabecera son por ración y el resumen muestra también el total del lote.
+
+Los ajustes se mantienen solo en memoria, por receta, incluso al volver desde la portada. Al editar se divide la cantidad introducida entre las raciones actuales; al cambiar raciones se multiplica esa nueva cantidad por ración, sin redondear el estado interno. Ejemplo: 100 g para 2 raciones pasa a 50 g para 1 y a 150 g para 3. Recargar restaura el JSON original; no se escribe en disco ni en almacenamiento del navegador. Cero excluye el aporte; vacío indica cantidad desconocida y subtotal parcial. Cantidades negativas o no numéricas no se aplican.
+
+En los pasos, las cantidades explícitas por ración pueden usar `{{food_id}}` (por ejemplo `{{honey}} g de miel`) para reflejar los ajustes. Mantén las unidades y la expresión «por ración» en el texto; los tiempos no se escalan. Evita cantidades fijas en las notas que contradigan los ajustes.

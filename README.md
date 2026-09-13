@@ -10,6 +10,8 @@ Desde el móvil o tablet en la misma wifi: `http://IP-DEL-MAC:8765`. La IP se co
 
 ## Añadir recetas con un agente
 
+Ordena siempre `ingredients` por su primera utilización en los pasos de preparación, también al modificar recetas existentes. Si varios se añaden juntos, sigue el orden en que aparecen en el paso; los ingredientes que se añaden al servir van al final. Cuando haya alternativas, sigue el método habitual del usuario y conserva la alternativa en la nota. Este orden se guarda directamente en el JSON; no hace falta ordenación automática en la interfaz.
+
 Edita `data/recipes.json`. `foods` es el catálogo reutilizable. Cada alimento admite `per100g` con `kcal`, `protein`, `carbs`, `fat` (gramos excepto kcal), además de campos opcionales `source` y `notes` para registrar etiqueta, marca y si se pesó crudo o cocinado.
 
 Cada receta tiene un `id` único, título, descripción, `defaultServings`, `ingredients`, `steps` y `photo` (ruta local como `photos/udon.jpg`, o null). Todas las cantidades se guardan por UNA ración. Los ingredientes referencian `food`; `quantity` y `unit` expresan la cantidad por ración; `grams` es su masa por ración para calcular nutrición. Por ejemplo, el udon lleva quantity: 0.6666666666666666, unit: "paquete", grams: 133.33333333333334 (dos tercios de un paquete de 200 g). Conserva la precisión en los datos: solo se redondea al mostrar. `defaultServings` únicamente fija el valor inicial del selector: 3 para el udon y 4 para el porridge. Cambiar este valor no altera cantidades guardadas ni macros por ración. El selector multiplica directamente las cantidades y nutrición por ración por las raciones elegidas. Para líquidos etiquetados por volumen, usar `per100ml` en el alimento y `quantity` con `unit: "ml"` en el ingrediente; se calcula directamente por volumen sin asumir densidad.
@@ -20,7 +22,7 @@ La receta inicial refleja el relato del usuario: tres raciones, dos paquetes de 
 
 ## Comprobación manual
 
-Abrir la receta y elegir 6 raciones: deben aparecer 4 paquetes, 48 g de aceite y 60 g de levadura. Volver a 3: 2 paquetes, 24 g y 30 g. Las cantidades desconocidas siguen pendientes. Comprobar navegación atrás, casillas de ingredientes y vista estrecha desde el móvil.
+Abrir la receta y elegir 6 raciones: deben aparecer 4 paquetes, 48 g de aceite y 60 g de levadura. Volver a 3: 2 paquetes, 24 g y 30 g. Las cantidades desconocidas siguen pendientes. Comprobar navegación atrás, casillas de ingredientes y pasos, y vista estrecha desde el móvil. Las casillas se pueden marcar y desmarcar; se mantienen al cambiar raciones y se reinician al abrir de nuevo la receta o recargar, igual que las de ingredientes.
 
 Los objetivos personales aproximados se guardan en `nutritionTargets`, por ración, y se muestran como referencia separada de la nutrición calculada. No modifican automáticamente los ingredientes.
 

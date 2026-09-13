@@ -276,18 +276,18 @@
           "grams": 180
         },
         {
-          "food": "blueberries_frozen",
-          "quantity": 100,
+          "food": "cinnamon",
+          "quantity": 5,
           "unit": "g",
-          "grams": 100,
-          "note": "Al servir, después del microondas"
+          "grams": 5,
+          "note": "Después de la cocción lenta"
         },
         {
-          "food": "honey",
+          "food": "erythritol",
           "quantity": 10,
           "unit": "g",
           "grams": 10,
-          "note": "Al servir, después del microondas"
+          "note": "Después de la cocción lenta"
         },
         {
           "food": "collagen_hsn",
@@ -304,24 +304,24 @@
           "note": "Sugerencia: mezclar con el requesón al servir · 5 g por ración"
         },
         {
-          "food": "erythritol",
-          "quantity": 10,
+          "food": "blueberries_frozen",
+          "quantity": 100,
           "unit": "g",
-          "grams": 10,
-          "note": "Después de la cocción lenta"
-        },
-        {
-          "food": "cinnamon",
-          "quantity": 5,
-          "unit": "g",
-          "grams": 5,
-          "note": "Después de la cocción lenta"
+          "grams": 100,
+          "note": "Al servir, después del microondas"
         },
         {
           "food": "pastoret_requeson",
           "quantity": 125,
           "unit": "g",
           "grams": 125,
+          "note": "Al servir, después del microondas"
+        },
+        {
+          "food": "honey",
+          "quantity": 10,
+          "unit": "g",
+          "grams": 10,
           "note": "Al servir, después del microondas"
         }
       ],

@@ -633,7 +633,7 @@
       "category": "Comida",
       "photo": null,
       "defaultServings": 4,
-      "weightBasis": "Pesos en crudo y de parte comestible; verduras consideradas peladas. Caldo y leche pesados en gramos.",
+      "weightBasis": "Pesos en crudo de los ingredientes que entraron en la cazuela; verduras pesadas ya peladas. Caldo y leche pesados en gramos.",
       "ingredients": [
         {
           "food": "gelatin_powder",
@@ -644,10 +644,10 @@
         },
         {
           "food": "broth_weighed",
-          "quantity": 125.0,
+          "quantity": 137.5,
           "unit": "g",
-          "grams": 125.0,
-          "note": "Para hidratar la gelatina y la cocción"
+          "grams": 137.5,
+          "note": "Para hidratar la gelatina, cocer y disolver la maicena"
         },
         {
           "food": "chicken",
@@ -658,24 +658,24 @@
         },
         {
           "food": "oil",
-          "quantity": 2.0,
+          "quantity": 3.75,
           "unit": "g",
-          "grams": 2.0,
-          "note": "AOVE para dorar el pollo"
+          "grams": 3.75,
+          "note": "AOVE para dorar el pollo y la cebolla"
         },
         {
           "food": "potato",
           "quantity": 300.0,
           "unit": "g",
           "grams": 300.0,
-          "note": "Peso considerado sin piel"
+          "note": "Peso ya pelado"
         },
         {
           "food": "carrot",
           "quantity": 87.5,
           "unit": "g",
           "grams": 87.5,
-          "note": "Peso considerado sin piel"
+          "note": "Peso ya pelado"
         },
         {
           "food": "red_onion",
@@ -685,18 +685,12 @@
           "note": ""
         },
         {
-          "food": "oil",
-          "quantity": 1.75,
-          "unit": "g",
-          "grams": 1.75,
-          "note": "AOVE para dorar la cebolla"
-        },
-        {
           "food": "curry_seasonings",
           "quantity": null,
           "unit": "g",
           "grams": null,
-          "note": "Al gusto; cantidades no medidas"
+          "note": "Al gusto",
+          "negligibleNutrition": true
         },
         {
           "food": "whole_milk",
@@ -713,13 +707,6 @@
           "note": ""
         },
         {
-          "food": "broth_weighed",
-          "quantity": 12.5,
-          "unit": "g",
-          "grams": 12.5,
-          "note": "Reservar frío para disolver la maicena al final"
-        },
-        {
           "food": "yeast",
           "quantity": 15.0,
           "unit": "g",
@@ -730,11 +717,11 @@
       "steps": [
         {
           "title": "Hidrata la gelatina",
-          "text": "Hidrata la gelatina neutra con el caldo indicado para la cocción, frío, durante al menos 30 minutos, siguiendo el tiempo del envase INKAFOODS. Mantén aparte el caldo reservado para disolver la maicena."
+          "text": "Reserva {{batch:broth_weighed:1/11}} g del caldo en frío para la maicena. Usa los {{batch:broth_weighed:10/11}} g restantes, fríos, para hidratar la gelatina durante al menos 30 minutos."
         },
         {
           "title": "Dora el pollo",
-          "text": "Dora los contramuslos en una cazuela grande con la parte de AOVE indicada para el pollo. Retira y reserva."
+          "text": "Dora los contramuslos en una cazuela grande con {{batch:oil:8/15}} g de AOVE. Retira y reserva."
         },
         {
           "title": "Prepara las verduras mientras se dora",
@@ -742,7 +729,7 @@
         },
         {
           "title": "Dora la cebolla",
-          "text": "Dora la cebolla morada en la misma cazuela, aprovechando los jugos del pollo y añadiendo la parte de AOVE indicada para la cebolla."
+          "text": "Dora la cebolla morada en la misma cazuela, aprovechando los jugos del pollo y añadiendo los {{batch:oil:7/15}} g restantes de AOVE."
         },
         {
           "title": "Añade las verduras y sazona",
@@ -769,14 +756,14 @@
           "text": "Divide el lote en el número de raciones elegido. Como orientación, la receta original de cuatro raciones rondaba los 700–800 g por ración; el peso final depende de la evaporación. Para repartir con precisión, pesa el lote cocinado y divide entre las raciones."
         }
       ],
-      "nutritionNote": "Estimación con leche entera, gelatina INKAFOODS 200 Bloom y verduras peladas. Se aproxima 1 g de caldo a 1 ml para calcular su aporte. El subtotal excluye las especias sin cantidad medida. La proteína incluye la aportada por la gelatina.",
       "preparationNotes": {
-        "oil": "La lista indica 15 g de AOVE y los pasos 8 + 5 g. A falta de respuesta a la aclaración, se mantiene el total de la lista: 8 g para pollo y 7 g para cebolla. Ajustar si el usuario confirma 13 g.",
+        "oil": "15 g totales en una sola entrada: reparto 8/15 para pollo y 7/15 para cebolla. Los pasos escalan el reparto con las raciones y los ajustes temporales.",
         "gelatin": "Se conservan los 60 g de gelatina neutra en polvo indicados explícitamente: 15 g por ración. INKAFOODS bovina 200 Bloom confirmada por el usuario; etiqueta consultada en https://www.amazon.es/dp/B07PN64WRC . Hidratación en frío al menos 30 minutos según el envase, aplicada al caldo del usuario. No sustituir por colágeno ni reducir por suposición.",
-        "broth": "550 g totales: 500 g para hidratar gelatina/cocer y 50 g para maicena. Dos entradas del mismo alimento, editables independientemente. No sumar caldo adicional.",
+        "broth": "550 g totales en una sola entrada: 500 g para hidratar gelatina/cocer y 50 g para maicena. Los pasos reparten el total en 10/11 y 1/11, escalando también los ajustes temporales.",
         "creamAlternative": "Alternativa del usuario: 30–35 g de nata ~18 % MG en lugar de 100 g de leche entera por lote de cuatro raciones. Solo nota, no se suma al cálculo. Calorías aproximadamente similares según etiqueta; macros diferentes.",
-        "yield": "700–800 g por ración es orientación del usuario para el lote original, no rendimiento garantizado. Pesos de verduras asumidos pelados para calcular porción comestible.",
-        "timing": "Sin tiempo de cocción indicado; no inventar minutos ni escalarlos con las raciones."
+        "yield": "700–800 g por ración es orientación del usuario para el lote original, no rendimiento garantizado. Confirmado: las verduras se pesaron ya peladas; todos los pesos corresponden a lo que entró en la cazuela.",
+        "timing": "Sin tiempo de cocción indicado; no inventar minutos ni escalarlos con las raciones.",
+        "nutrition": "Estimación con leche entera, gelatina INKAFOODS 200 Bloom y verduras peladas. Se aproxima 1 g de caldo a 1 ml para calcular su aporte. Especias al gusto omitidas del cálculo por aporte despreciable, a petición del usuario. La proteína incluye la aportada por la gelatina."
       }
     }
   ],

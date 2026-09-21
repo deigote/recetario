@@ -20,6 +20,7 @@ function nutritionPerServing(recipe, amounts) {
   const total = {kcal:0, protein:0, carbs:0, fat:0, polyols:0, missing:[]};
   let included = 0;
   recipe.ingredients.forEach((ingredient, index) => {
+    if (ingredient.negligibleNutrition) return;
     const values = ingredientNutrition(ingredient, amounts[index]);
     if (!values) {total.missing.push(data.foods[ingredient.food].name); return;}
     for (const key of ['kcal', 'protein', 'carbs', 'fat', 'polyols']) total[key] += values[key];
@@ -27,10 +28,12 @@ function nutritionPerServing(recipe, amounts) {
   });
   return included ? total : null;
 }
-function servingText(text, recipe, amounts) {
-  return text.replace(/\{\{([a-z_]+)\}\}/g, (_, food) => {
+function servingText(text, recipe, amounts, portions) {
+  return text.replace(/\{\{(?:(batch):)?([a-z_]+)(?::(\d+)\/(\d+))?\}\}/g, (_, batch, food, numerator, denominator) => {
     const index = recipe.ingredients.findIndex(ingredient => ingredient.food === food);
-    return index < 0 || amounts[index] === null ? '—' : number(amounts[index]);
+    if (index < 0 || amounts[index] === null) return '—';
+    const fraction = numerator === undefined ? 1 : Number(numerator) / Number(denominator);
+    return number(amounts[index] * (batch ? portions : 1) * fraction);
   });
 }
 function photo(recipe, css) {
@@ -105,7 +108,7 @@ function render() {
       const values = ingredientNutrition(ingredient, amount);
       document.querySelector(`#ingredient-nutrition-${index}`).textContent = values
         ? `${number(values.kcal)} kcal · P ${number(values.protein)} · H ${number(values.carbs)} · G ${number(values.fat)}`
-        : amount === null ? 'Cantidad pendiente' : 'Macros pendientes';
+        : ingredient.negligibleNutrition ? '' : amount === null ? 'Cantidad pendiente' : 'Macros pendientes';
       const packageNote = ingredient.unit === 'paquete' && amount !== null && ingredient.grams > 0
         ? `${number(amount * ingredient.quantity / ingredient.grams)} paquetes · ` : '';
       document.querySelector(`#ingredient-note-${index}`).textContent = packageNote + (ingredient.note || '');
@@ -114,14 +117,14 @@ function render() {
       document.querySelector(`#metric-${key}`).textContent = total ? number(total[key]) : '—';
     }
     document.querySelector('#nutrition-note').textContent = total
-      ? `Estimación por ración.${total.missing.length ? ` Cálculo parcial: no incluye ${total.missing.join(', ')}, pendiente de completar.` : ''} ${total.missing.length ? 'Subtotal' : 'Total'} para ${portions}: ${number(total.kcal*portions)} kcal · ${number(total.protein*portions)} g proteínas · ${number(total.carbs*portions)} g hidratos · ${number(total.fat*portions)} g grasas.`
+      ? `Por ración.${total.missing.length ? ` Cálculo parcial: no incluye ${total.missing.join(', ')}, pendiente de completar.` : ''}`
       : 'Valores por ración pendientes: faltan cantidades y datos nutricionales de los ingredientes.';
     const polyols = document.querySelector('#polyols-note');
     polyols.hidden = !(total?.polyols > 0);
     polyols.textContent = total?.polyols > 0
       ? `Los hidratos incluyen ${number(total.polyols)} g de polialcoholes por ración. Sin ellos: ${number(total.carbs-total.polyols)} g de hidratos. El eritritol aporta 0 kcal.` : '';
     recipe.steps.forEach((step, index) => {
-      document.querySelector(`#step-text-${index}`).textContent = servingText(step.text, recipe, state.amounts);
+      document.querySelector(`#step-text-${index}`).textContent = servingText(step.text, recipe, state.amounts, portions);
     });
   }
   function changeServings() {

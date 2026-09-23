@@ -328,6 +328,38 @@
       "per100g": null,
       "source": "Receta aportada por el usuario",
       "notes": "Al gusto, sin cantidades ni proporciones especificadas. Excluido del subtotal; no atribuir cero kcal a las especias."
+    },
+    "white_rice": {
+      "name": "Arroz blanco",
+      "per100g": {
+        "kcal": 381,
+        "protein": 7,
+        "carbs": 86,
+        "fat": 0.9
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/arroz.pdf",
+      "notes": "Referencia genérica FEN, arroz blanco en seco, por 100 g. Consultada 2026-09-23. El usuario varía el arroz (último usado: La Fallera, variedad no especificada); no se presenta como etiqueta de esa marca."
+    },
+    "thai_stir_fry": {
+      "name": "Salteado tailandés La Sirena",
+      "per100g": {
+        "kcal": 34,
+        "protein": 2.4,
+        "carbs": 5.1,
+        "fat": 0
+      },
+      "source": "https://www.lasirena.es/es/salteado-tailandes-3381/p",
+      "notes": "Ficha oficial consultada 2026-09-23: bolsa de 600 g; por 100 g de producto, 34 kcal, 2,4 g proteína, 5,1 g hidratos y 0 g grasa. No añadir aceite de preparación a estos valores: se contabiliza por separado."
+    },
+    "soy_sauce": {
+      "name": "Salsa de soja",
+      "per100g": null,
+      "notes": "Un chorro pequeño, sin marca ni cantidad medida. Omitido del cálculo como condimento de pequeño aporte; no se inventan gramos ni etiqueta."
+    },
+    "garlic_seasonings": {
+      "name": "Ajo en polvo y especias",
+      "per100g": null,
+      "notes": "Al gusto; aporte despreciable omitido del cálculo siguiendo la preferencia del usuario."
     }
   },
   "recipes": [
@@ -764,6 +796,92 @@
         "yield": "700–800 g por ración es orientación del usuario para el lote original, no rendimiento garantizado. Confirmado: las verduras se pesaron ya peladas; todos los pesos corresponden a lo que entró en la cazuela.",
         "timing": "Sin tiempo de cocción indicado; no inventar minutos ni escalarlos con las raciones.",
         "nutrition": "Estimación con leche entera, gelatina INKAFOODS 200 Bloom y verduras peladas. Se aproxima 1 g de caldo a 1 ml para calcular su aporte. Especias al gusto omitidas del cálculo por aporte despreciable, a petición del usuario. La proteína incluye la aportada por la gelatina."
+      }
+    },
+    {
+      "id": "pollo-salteado-tailandes-arroz",
+      "title": "Pollo con salteado tailandés y arroz",
+      "description": "Arroz en la Instant Pot mientras el pollo y las verduras se hacen en la sartén. Un toque de soja y listo.",
+      "category": "Comida",
+      "photo": null,
+      "defaultServings": 2,
+      "weightBasis": "Pesos en crudo: arroz en seco y pollo sin piel, de parte comestible sin hueso, como en las recetas anteriores. Salteado congelado antes de cocinar.",
+      "ingredients": [
+        {
+          "food": "white_rice",
+          "quantity": 55,
+          "unit": "g",
+          "grams": 55,
+          "note": "En seco"
+        },
+        {
+          "food": "broth_weighed",
+          "quantity": 62.5,
+          "unit": "g",
+          "grams": 62.5,
+          "note": "Para cocer el arroz"
+        },
+        {
+          "food": "chicken",
+          "quantity": 160,
+          "unit": "g",
+          "grams": 160,
+          "note": "Sin piel y sin hueso"
+        },
+        {
+          "food": "oil",
+          "quantity": 5,
+          "unit": "g",
+          "grams": 5,
+          "note": ""
+        },
+        {
+          "food": "thai_stir_fry",
+          "quantity": 0.5,
+          "unit": "paquete",
+          "grams": 300
+        },
+        {
+          "food": "soy_sauce",
+          "quantity": null,
+          "unit": "g",
+          "grams": null,
+          "note": "Un chorro pequeño",
+          "negligibleNutrition": true
+        },
+        {
+          "food": "garlic_seasonings",
+          "quantity": null,
+          "unit": "g",
+          "grams": null,
+          "note": "Al gusto, sobre todo ajo en polvo",
+          "negligibleNutrition": true
+        }
+      ],
+      "steps": [
+        {
+          "title": "Pon el arroz · 4 min a presión alta",
+          "text": "Pon el arroz en la Instant Pot con {{batch:broth_weighed}} g de caldo de pollo. Cocina 4 minutos a presión alta. Al terminar, deja que la presión baje sola sin abrir la válvula, hasta 10 minutos. Abre cuando la olla haya perdido la presión."
+        },
+        {
+          "title": "Dora el pollo mientras se hace el arroz",
+          "text": "Cocina los contramuslos en la sartén a fuego fuerte y con tapa. Retira el pollo y reserva, dejando los jugos en la sartén."
+        },
+        {
+          "title": "Añade el salteado y tapa",
+          "text": "Añade el aceite y el salteado tailandés a la sartén. Coloca el pollo encima y vuelve a tapar. Cocina hasta que el salteado empiece a agarrarse al fondo y el pollo esté hecho."
+        },
+        {
+          "title": "Termina con soja y sirve",
+          "text": "Retira el pollo, añade un chorro pequeño de salsa de soja, ajo en polvo y las especias que te apetezcan. Remueve aprovechando el fondo de la sartén y sirve con el arroz y el pollo, repartiendo en las raciones elegidas."
+        }
+      ],
+      "preparationNotes": {
+        "amounts": "Lote original para dos: 320 g pollo sin piel, 1 bolsa de salteado de 600 g, 10 g aceite y 110 g arroz. Guardado por ración. Pesos en crudo según preferencia previa; pollo de parte comestible sin hueso. Añadidos 125 g de caldo de pollo para el arroz (62,5 g/ración). Referencia Gallina Blanca previamente utilizada, con aproximación 1 g/ml documentada en broth_weighed.",
+        "rice": "El usuario varía el arroz; último usado La Fallera, sin variedad especificada. Se conserva una referencia genérica de arroz blanco en seco FEN. Confirmados unos 125 g de caldo de pollo por 110 g de arroz para el lote de dos raciones. Ambos ingredientes son editables independientemente; no vincularlos automáticamente.",
+        "timing": "Método del usuario: 4 minutos a presión alta y despresurización natural hasta 10 minutos, sin abrir la válvula. No escalar los tiempos con las raciones ni indicar abrir la tapa con presión restante.",
+        "seasoning": "Se propone añadir las especias junto con la soja al final; el usuario no especificó el momento. Soja en chorro pequeño y especias al gusto omitidas del cálculo como condimentos de pequeño aporte.",
+        "photo": "Pendiente de foto del plato."
       }
     }
   ],

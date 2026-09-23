@@ -64,9 +64,9 @@ Actualización de eritritol: el usuario recuerda añadir aproximadamente tanto c
 
 Nutrición actual del helado por ración, con la variante aceptada: 167,075 kcal, 10,94625 P, 21,71625 H incluyendo 5 g de polialcoholes (16,71625 H excluyéndolos), 5,78625 G. Se mantienen intactos los valores históricos de MFP en `originalMfp`, que corresponden a la versión original con semidesnatada, sin colágeno y sin eritritol anotado. Con eritritol se propone LITE ICE CREAM / Helado light, de acuerdo con la recomendación de Ninja para recetas con edulcorantes: https://ninjakitchenapac.zendesk.com/hc/en-au/articles/5369888572303-Product-Setup-How-to-Use .
 
-## Curry cremoso de patata y pollo · Comida
+## Curry caldoso de patata y pollo · Comida
 
-Cuatro raciones por defecto, cantidades guardadas por una ración. Se conservan los 60 g de gelatina neutra en polvo para el lote (15 g por ración), sin sustituirla por colágeno. Foto pendiente. Ingredientes ordenados por primer uso, incluido pelar las verduras mientras se dora el pollo.
+Cuatro raciones por defecto, cantidades guardadas por una ración. Se conservan los 60 g de gelatina neutra en polvo para el lote (15 g por ración), sin sustituirla por colágeno. Foto aportada por el usuario: `photos/curry-patata-pollo.png`, usada en portada y ficha. Se conserva el identificador `curry-cremoso-patata-pollo` para mantener los enlaces existentes. Ingredientes ordenados por primer uso, incluido pelar las verduras mientras se dora el pollo.
 
 Caldo y aceite en una única entrada cada uno: 550 g y 15 g por lote. Los pasos reparten el caldo en 500 g para hidratar/cocer y 50 g para maicena, y el aceite en 8 g para pollo y 7 g para cebolla. Los tokens de lote con fracciones conservan este reparto al editar cantidades o raciones.
 

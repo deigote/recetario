@@ -660,10 +660,10 @@
     },
     {
       "id": "curry-cremoso-patata-pollo",
-      "title": "Curry cremoso de patata y pollo",
-      "description": "Contramuslo dorado, patata chascada y zanahoria a fuego lento, con una salsa cremosa terminada con levadura nutricional.",
+      "title": "Curry caldoso de patata y pollo",
+      "description": "Contramuslo dorado, patata chascada y zanahoria a fuego lento, en un caldo de curry terminado con levadura nutricional.",
       "category": "Comida",
-      "photo": null,
+      "photo": "photos/curry-patata-pollo.png",
       "defaultServings": 4,
       "weightBasis": "Pesos en crudo de los ingredientes que entraron en la cazuela; verduras pesadas ya peladas. Caldo y leche pesados en gramos.",
       "ingredients": [

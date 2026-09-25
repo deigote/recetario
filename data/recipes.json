@@ -803,7 +803,7 @@
       "title": "Pollo con salteado tailandés y arroz",
       "description": "Arroz en la Instant Pot mientras el pollo y las verduras se hacen en la sartén. Un toque de soja y listo.",
       "category": "Comida",
-      "photo": null,
+      "photo": "photos/pollo-salteado-tailandes-arroz.png",
       "defaultServings": 2,
       "weightBasis": "Pesos en crudo: arroz en seco y pollo sin piel, de parte comestible sin hueso, como en las recetas anteriores. Salteado congelado antes de cocinar.",
       "ingredients": [
@@ -881,7 +881,7 @@
         "rice": "El usuario varía el arroz; último usado La Fallera, sin variedad especificada. Se conserva una referencia genérica de arroz blanco en seco FEN. Confirmados unos 125 g de caldo de pollo por 110 g de arroz para el lote de dos raciones. Ambos ingredientes son editables independientemente; no vincularlos automáticamente.",
         "timing": "Método del usuario: 4 minutos a presión alta y despresurización natural hasta 10 minutos, sin abrir la válvula. No escalar los tiempos con las raciones ni indicar abrir la tapa con presión restante.",
         "seasoning": "Se propone añadir las especias junto con la soja al final; el usuario no especificó el momento. Soja en chorro pequeño y especias al gusto omitidas del cálculo como condimentos de pequeño aporte.",
-        "photo": "Pendiente de foto del plato."
+        "photo": "Foto aportada por el usuario el 2026-09-25, usada en portada y ficha."
       }
     }
   ],

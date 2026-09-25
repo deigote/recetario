@@ -78,7 +78,7 @@ Gelatina confirmada: INKAFOODS bovina 200 Bloom, ASIN B07PN64WRC. Etiqueta fotog
 
 ## Pollo con salteado tailandés y arroz · Comida
 
-Dos raciones por defecto; cantidades por una ración: 55 g de arroz blanco seco, 62,5 g de caldo de pollo, 160 g de contramuslo sin piel, 5 g de aceite y 300 g (medio paquete) de salteado tailandés La Sirena. Soja en un chorro pequeño y especias, sobre todo ajo en polvo, al gusto; aporte omitido con negligibleNutrition. Sin ingredientes repetidos, ordenados por primer uso. Foto pendiente.
+Dos raciones por defecto; cantidades por una ración: 55 g de arroz blanco seco, 62,5 g de caldo de pollo, 160 g de contramuslo sin piel, 5 g de aceite y 300 g (medio paquete) de salteado tailandés La Sirena. Soja en un chorro pequeño y especias, sobre todo ajo en polvo, al gusto; aporte omitido con negligibleNutrition. Sin ingredientes repetidos, ordenados por primer uso. Foto aportada por el usuario el 2026-09-25: `photos/pollo-salteado-tailandes-arroz.png`, visible en portada y ficha.
 
 Bolsa de 600 g y macros del salteado consultados en la ficha oficial el 2026-09-23: https://www.lasirena.es/es/salteado-tailandes-3381/p . Por 100 g: 34 kcal, 2,4 P, 5,1 H y 0 G. Arroz variable (último usado: La Fallera), con referencia genérica FEN de arroz blanco seco: https://www.fen.org.es/MercadoAlimentosFEN/pdfs/arroz.pdf . Caldo: referencia Gallina Blanca ya usada, aproximando 1 g/ml. Totales por ración: 582,025 kcal, 41,54 P, 62,725 H y 16,8775 G; condimentos al gusto omitidos.
 

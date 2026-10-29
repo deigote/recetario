@@ -360,6 +360,39 @@
       "name": "Ajo en polvo y especias",
       "per100g": null,
       "notes": "Al gusto; aporte despreciable omitido del cálculo siguiendo la preferencia del usuario."
+    },
+    "potato_flakes": {
+      "name": "Copos de puré de patata",
+      "per100g": {
+        "kcal": 345,
+        "protein": 7.5,
+        "carbs": 73.6,
+        "fat": 0.8
+      },
+      "source": "Etiqueta fotografiada por el usuario el 2026-10-29",
+      "notes": "Valores por 100 g de copos secos, no de puré preparado. Sobre confirmado de 115 g. Marca no especificada."
+    },
+    "laughing_cow_portions": {
+      "name": "Quesitos La Vaca que Ríe",
+      "per100g": {
+        "kcal": 179,
+        "protein": 11,
+        "carbs": 5.5,
+        "fat": 12.5
+      },
+      "source": "https://m.media-amazon.com/images/I/71QUSk8DvPL._AC_SL1200_.jpg",
+      "notes": "Etiqueta aportada por el usuario y leída el 2026-10-29: por 100 g, 179 kcal, 11 g proteína, 5,5 g hidratos, 12,5 g grasa. Porción indicada 15,6 g; cuatro quesitos se modelan como 62,4 g (peso de porción redondeado en etiqueta). Envase 250 g / 16 porciones."
+    },
+    "turkey_garlic_chops": {
+      "name": "Chuletas de pavo al ajillo Coren",
+      "per100g": {
+        "kcal": 115,
+        "protein": 17,
+        "carbs": 0.4,
+        "fat": 5.2
+      },
+      "source": "https://www.fatsecret.es/calor%C3%ADas-nutrici%C3%B3n/coren/chuleta-de-pavo-al-ajillo/100g",
+      "notes": "Referencia secundaria provisional consultada 2026-10-29, no etiqueta verificada del envase. Producto identificado en el enlace del usuario https://www.amazon.es/Chuleta-pavo-ajillo-500-gr/dp/B07L34R75V : Coren, bandeja nominal 500 g. Se usan los 450 g comestibles sin hueso indicados por el usuario, no 500 g. Sustituir valores por la etiqueta cuando esté disponible."
     }
   },
   "recipes": [
@@ -882,6 +915,108 @@
         "timing": "Método del usuario: 4 minutos a presión alta y despresurización natural hasta 10 minutos, sin abrir la válvula. No escalar los tiempos con las raciones ni indicar abrir la tapa con presión restante.",
         "seasoning": "Se propone añadir las especias junto con la soja al final; el usuario no especificó el momento. Soja en chorro pequeño y especias al gusto omitidas del cálculo como condimentos de pequeño aporte.",
         "photo": "Foto aportada por el usuario el 2026-09-25, usada en portada y ficha."
+      }
+    },
+    {
+      "id": "pure-patata-champinones-pavo-ajillo",
+      "title": "Puré de patata con champiñones y chuletas de pavo al ajillo",
+      "description": "Puré con champiñones, quesitos y levadura nutricional, acompañado de chuletas de pavo a la sartén.",
+      "category": "Comida",
+      "photo": null,
+      "defaultServings": 2,
+      "weightBasis": "Cantidades antes de cocinar; champiñones en crudo, copos secos y pavo pesado sin hueso. Caldo y leche en gramos.",
+      "ingredients": [
+        {
+          "food": "mushrooms",
+          "quantity": 200,
+          "unit": "g",
+          "grams": 200,
+          "note": ""
+        },
+        {
+          "food": "broth_weighed",
+          "quantity": 150,
+          "unit": "g",
+          "grams": 150,
+          "note": ""
+        },
+        {
+          "food": "skim_milk",
+          "quantity": 125,
+          "unit": "g",
+          "grams": 125,
+          "note": ""
+        },
+        {
+          "food": "gelatin_powder",
+          "quantity": 20,
+          "unit": "g",
+          "grams": 20,
+          "note": "Polvo seco"
+        },
+        {
+          "food": "laughing_cow_portions",
+          "quantity": 31.2,
+          "unit": "g",
+          "grams": 31.2,
+          "note": "Porciones de 15,6 g"
+        },
+        {
+          "food": "potato_flakes",
+          "quantity": 57.5,
+          "unit": "g",
+          "grams": 57.5,
+          "note": "Copos secos · sobre de 115 g"
+        },
+        {
+          "food": "yeast",
+          "quantity": 15,
+          "unit": "g",
+          "grams": 15,
+          "note": ""
+        },
+        {
+          "food": "oil",
+          "quantity": 3,
+          "unit": "g",
+          "grams": 3,
+          "note": "AOVE para la sartén"
+        },
+        {
+          "food": "turkey_garlic_chops",
+          "quantity": 225,
+          "unit": "g",
+          "grams": 225,
+          "note": "Peso sin hueso · macros provisionales"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Cocina los champiñones · 30 min a presión",
+          "text": "Cocina los champiñones en la Instant Pot a presión durante 30 minutos, con el líquido necesario para tu modelo. Abre cuando haya perdido la presión y reserva los champiñones."
+        },
+        {
+          "title": "Hidrata la gelatina · 10–20 min",
+          "text": "Mientras se hacen los champiñones, mezcla el caldo de pollo, la leche desnatada y la gelatina. Deja hidratar entre 10 y 20 minutos."
+        },
+        {
+          "title": "Calienta y funde los quesitos",
+          "text": "Lleva la mezcla de caldo, leche y gelatina casi a ebullición. Añade los quesitos y los champiñones cocidos. Mezcla hasta que los quesitos se hayan derretido."
+        },
+        {
+          "title": "Añade los copos y la levadura · reposa 5 min",
+          "text": "Apaga el fuego, incorpora los copos de puré y la levadura nutricional, mezcla bien y deja reposar 5 minutos."
+        },
+        {
+          "title": "Haz las chuletas y sirve",
+          "text": "Calienta el AOVE en una sartén y cocina las chuletas de pavo al ajillo por ambos lados hasta que estén hechas. Reparte el puré y el pavo en las raciones elegidas."
+        }
+      ],
+      "preparationNotes": {
+        "amounts": "Lote de dos raciones: 400 g champiñones, 300 g caldo de pollo, 250 g leche desnatada, 40 g gelatina, 4 quesitos de 15,6 g (62,4 g), 1 sobre de copos de 115 g, 30 g levadura, 6 g AOVE y 450 g de pavo sin hueso. Cada cantidad guardada dividida entre dos. No contar el hueso ni volver a añadir la marinada del pavo.",
+        "sources": "Se reutilizan las referencias del catálogo: champiñones FEN, leche desnatada FEN, caldo Gallina Blanca pesado con aproximación 1 g/ml, gelatina INKAFOODS y levadura HSN. Copos y quesitos según etiquetas facilitadas. Pavo con referencia secundaria provisional de FatSecret para Coren Chuleta de Pavo al Ajillo, pendiente de etiqueta del envase.",
+        "timing": "Se conserva el método del usuario: champiñones 30 min a presión, hidratación 10–20 min, calentamiento casi a ebullición, copos y levadura fuera del fuego y reposo 5 min. No escalar tiempos. Presión alta/baja, líquido de cocción de champiñones y forma de despresurizar no especificados; no inventar cantidades ni descontar ese líquido de los 300 g de caldo destinados al puré.",
+        "photo": "Pendiente de foto del plato; la captura del usuario es una etiqueta, no la foto de la receta."
       }
     }
   ],

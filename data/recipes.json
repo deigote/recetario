@@ -922,7 +922,7 @@
       "title": "Puré de patata con champiñones y chuletas de pavo al ajillo",
       "description": "Puré con champiñones, quesitos y levadura nutricional, acompañado de chuletas de pavo a la sartén.",
       "category": "Comida",
-      "photo": null,
+      "photo": "photos/pure-patata-champinones-pavo-ajillo.png",
       "defaultServings": 2,
       "weightBasis": "Cantidades antes de cocinar; champiñones en crudo, copos secos y pavo pesado sin hueso. Caldo y leche en gramos.",
       "ingredients": [
@@ -1016,7 +1016,7 @@
         "amounts": "Lote de dos raciones: 400 g champiñones, 300 g caldo de pollo, 250 g leche desnatada, 40 g gelatina, 4 quesitos de 15,6 g (62,4 g), 1 sobre de copos de 115 g, 30 g levadura, 6 g AOVE y 450 g de pavo sin hueso. Cada cantidad guardada dividida entre dos. No contar el hueso ni volver a añadir la marinada del pavo.",
         "sources": "Se reutilizan las referencias del catálogo: champiñones FEN, leche desnatada FEN, caldo Gallina Blanca pesado con aproximación 1 g/ml, gelatina INKAFOODS y levadura HSN. Copos y quesitos según etiquetas facilitadas. Pavo con referencia secundaria provisional de FatSecret para Coren Chuleta de Pavo al Ajillo, pendiente de etiqueta del envase.",
         "timing": "Se conserva el método del usuario: champiñones 30 min a presión, hidratación 10–20 min, calentamiento casi a ebullición, copos y levadura fuera del fuego y reposo 5 min. No escalar tiempos. Presión alta/baja, líquido de cocción de champiñones y forma de despresurizar no especificados; no inventar cantidades ni descontar ese líquido de los 300 g de caldo destinados al puré.",
-        "photo": "Pendiente de foto del plato; la captura del usuario es una etiqueta, no la foto de la receta."
+        "photo": "Foto del plato aportada por el usuario el 2026-10-29, visible en portada y ficha."
       }
     }
   ],

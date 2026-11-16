@@ -94,6 +94,6 @@ Macros estimados por ración: 775,343 kcal, 78,9445 P, 62,336 H y 20,982 G, cont
 
 ## Lentejas de la mama · Comida
 
-Cantidades por ración recibidas directamente, defaultServings 1. Cuatro pasos de recordatorio: hidratar/disolver gelatina, primera cocción, sofrito y patata, levadura y reposo. Preferencia del usuario para nuevas recetas: cuantos menos pasos mejor y quitar obviedades, pues son platos que ya prepara.
+Cantidades por ración recibidas directamente, defaultServings 4 para batch cooking. Cuatro pasos de recordatorio: hidratar/disolver gelatina, primera cocción, sofrito y patata, levadura y reposo. Preferencia del usuario para nuevas recetas: cuantos menos pasos mejor y quitar obviedades, pues son platos que ya prepara.
 
 Caldo editable de 375 ml (rango dado 350–400 ml), reserva de un quinto para hidratar. Mantener unidad ml y etiqueta Gallina Blanca per100ml, sin conversión de densidad. Pesos orientativos comestibles: media cebolla pequeña 50 g, cuarto de puerro/cebolleta 25 g, un ajo 4 g; notas visibles como aproximaciones. Referencias FEN en foods para lentejas secas, cebolla, puerro y ajo; se conservan alimentos compartidos anteriores. Laurel/comino/clavo y pimentón/sal agrupados por momento de uso, aporte despreciable omitido. Foto pendiente. Cantidades originales por ración y tiempos del usuario conservados; no escalar tiempos ni duplicar ingredientes.

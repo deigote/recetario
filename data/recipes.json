@@ -1081,7 +1081,7 @@
       "description": "Pardinas con verduras y sofrito de cebolla y pimentón · 45–60 min.",
       "category": "Comida",
       "photo": null,
-      "defaultServings": 1,
+      "defaultServings": 4,
       "weightBasis": "Lentejas en seco y verduras crudas, peladas. Cebolla, puerro y ajo con pesos orientativos.",
       "ingredients": [
         {
@@ -1190,7 +1190,7 @@
         }
       ],
       "preparationNotes": {
-        "amounts": "Cantidades recibidas por UNA ración y guardadas sin dividir; defaultServings 1. Caldo 350–400 ml, valor editable inicial 375 ml. Reserva aproximada de un quinto: 75 ml por ración con el valor inicial. No duplicar caldo ni ingredientes.",
+        "amounts": "Cantidades recibidas por UNA ración y guardadas sin dividir; defaultServings 4. Caldo 350–400 ml, valor editable inicial 375 ml. Reserva aproximada de un quinto: 75 ml por ración con el valor inicial. No duplicar caldo ni ingredientes.",
         "estimates": "Pesos orientativos añadidos para calcular: media cebolla pequeña 50 g, cuarto de puerro 25 g, diente de ajo pelado 4 g. Referencias FEN; puerro como referencia para la alternativa cebolleta. No son pesos confirmados por el usuario. Especias agrupadas en dos entradas según su momento de uso, negligibleNutrition true.",
         "method": "Resumen en cuatro pasos del método aportado; hidratación 5–10 min, cocción 25–35 + 15–20 min, reposo 3–5 min. Tiempos no escalables. Total orientativo del usuario 45–60 min. Preferir recordatorios breves, sin obviedades, en futuras recetas.",
         "photo": "Pendiente de foto del plato."

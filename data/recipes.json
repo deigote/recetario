@@ -393,6 +393,62 @@
       },
       "source": "https://www.fatsecret.es/calor%C3%ADas-nutrici%C3%B3n/coren/chuleta-de-pavo-al-ajillo/100g",
       "notes": "Referencia secundaria provisional consultada 2026-10-29, no etiqueta verificada del envase. Producto identificado en el enlace del usuario https://www.amazon.es/Chuleta-pavo-ajillo-500-gr/dp/B07L34R75V : Coren, bandeja nominal 500 g. Se usan los 450 g comestibles sin hueso indicados por el usuario, no 500 g. Sustituir valores por la etiqueta cuando esté disponible."
+    },
+    "lentils_dry": {
+      "name": "Lentejas pardinas secas",
+      "per100g": {
+        "kcal": 351,
+        "protein": 23.8,
+        "carbs": 54,
+        "fat": 1.8
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/lentejas.pdf",
+      "notes": "FEN, lentejas secas genéricas, por 100 g; aproximación a pardinas. Consultada 2026-11-16."
+    },
+    "onion": {
+      "name": "Cebolla",
+      "per100g": {
+        "kcal": 23,
+        "protein": 1.4,
+        "carbs": 3.5,
+        "fat": 0.2
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/cebolla.pdf",
+      "notes": "FEN, cebolla blanca cruda, por 100 g comestibles. Consultada 2026-11-16."
+    },
+    "leek": {
+      "name": "Puerro o cebolleta",
+      "per100g": {
+        "kcal": 48,
+        "protein": 2,
+        "carbs": 7.5,
+        "fat": 0.4
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/puerro.pdf",
+      "notes": "Referencia FEN de puerro crudo, por 100 g comestibles; cebolleta como alternativa, no se suman ambas. Consultada 2026-11-16."
+    },
+    "garlic": {
+      "name": "Ajo",
+      "per100g": {
+        "kcal": 118,
+        "protein": 5.3,
+        "carbs": 23,
+        "fat": 0.3
+      },
+      "source": "https://www.fen.org.es/MercadoAlimentosFEN/pdfs/ajo.pdf",
+      "notes": "FEN, por 100 g comestibles crudos. Peso orientativo por diente pelado: 4 g. Consultada 2026-11-16."
+    },
+    "lentil_aromatics": {
+      "name": "Laurel, comino y clavo",
+      "per100g": null,
+      "source": "Receta del usuario",
+      "notes": "Por ración: una hoja de laurel, pizca de comino en grano y un clavo. Aporte despreciable omitido."
+    },
+    "paprika_salt": {
+      "name": "Pimentón dulce y sal",
+      "per100g": null,
+      "source": "Receta del usuario",
+      "notes": "Por ración: media cucharadita de pimentón dulce y sal al gusto. Aporte despreciable omitido."
     }
   },
   "recipes": [
@@ -1017,6 +1073,127 @@
         "sources": "Se reutilizan las referencias del catálogo: champiñones FEN, leche desnatada FEN, caldo Gallina Blanca pesado con aproximación 1 g/ml, gelatina INKAFOODS y levadura HSN. Copos y quesitos según etiquetas facilitadas. Pavo con referencia secundaria provisional de FatSecret para Coren Chuleta de Pavo al Ajillo, pendiente de etiqueta del envase.",
         "timing": "Se conserva el método del usuario: champiñones 30 min a presión, hidratación 10–20 min, calentamiento casi a ebullición, copos y levadura fuera del fuego y reposo 5 min. No escalar tiempos. Presión alta/baja, líquido de cocción de champiñones y forma de despresurizar no especificados; no inventar cantidades ni descontar ese líquido de los 300 g de caldo destinados al puré.",
         "photo": "Foto del plato aportada por el usuario el 2026-10-29, visible en portada y ficha."
+      }
+    },
+    {
+      "id": "lentejas-de-la-mama",
+      "title": "Lentejas de la mama",
+      "description": "Pardinas con verduras y sofrito de cebolla y pimentón · 45–60 min.",
+      "category": "Comida",
+      "photo": null,
+      "defaultServings": 1,
+      "weightBasis": "Lentejas en seco y verduras crudas, peladas. Cebolla, puerro y ajo con pesos orientativos.",
+      "ingredients": [
+        {
+          "food": "broth",
+          "quantity": 375,
+          "unit": "ml",
+          "grams": null,
+          "note": "350–400 ml por ración; ajusta según lo caldosas que las quieras"
+        },
+        {
+          "food": "gelatin_powder",
+          "quantity": 15,
+          "unit": "g",
+          "grams": 15,
+          "note": ""
+        },
+        {
+          "food": "lentils_dry",
+          "quantity": 80,
+          "unit": "g",
+          "grams": 80,
+          "note": "Sin remojo"
+        },
+        {
+          "food": "lentil_aromatics",
+          "quantity": null,
+          "unit": "g",
+          "grams": null,
+          "note": "Por ración: 1 hoja de laurel, pizca de comino y 1 clavo",
+          "negligibleNutrition": true
+        },
+        {
+          "food": "garlic",
+          "quantity": 4,
+          "unit": "g",
+          "grams": 4,
+          "note": "≈1 diente por ración"
+        },
+        {
+          "food": "carrot",
+          "quantity": 100,
+          "unit": "g",
+          "grams": 100,
+          "note": ""
+        },
+        {
+          "food": "leek",
+          "quantity": 25,
+          "unit": "g",
+          "grams": 25,
+          "note": "≈¼ de puerro o cebolleta por ración; peso orientativo"
+        },
+        {
+          "food": "oil",
+          "quantity": 5,
+          "unit": "g",
+          "grams": 5,
+          "note": ""
+        },
+        {
+          "food": "onion",
+          "quantity": 50,
+          "unit": "g",
+          "grams": 50,
+          "note": "≈½ cebolla pequeña por ración; peso orientativo"
+        },
+        {
+          "food": "paprika_salt",
+          "quantity": null,
+          "unit": "g",
+          "grams": null,
+          "note": "Por ración: ½ cucharadita de pimentón; sal al gusto",
+          "negligibleNutrition": true
+        },
+        {
+          "food": "potato",
+          "quantity": 125,
+          "unit": "g",
+          "grams": 125,
+          "note": ""
+        },
+        {
+          "food": "yeast",
+          "quantity": 10,
+          "unit": "g",
+          "grams": 10,
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "title": "Hidrata y disuelve la gelatina",
+          "text": "Hidrata la gelatina en una quinta parte del caldo frío durante 5–10 min. Calienta el resto y disuélvela."
+        },
+        {
+          "title": "Cuece las lentejas · 25–35 min",
+          "text": "Pon las lentejas lavadas con el caldo, el laurel, el ajo majado con el comino, el clavo, la zanahoria troceada y el puerro o cebolleta. Tapa y cuece a fuego lento hasta que estén casi tiernas."
+        },
+        {
+          "title": "Sofrito y patata · 15–20 min",
+          "text": "Mientras, dora la cebolla picada con el aceite; fuera del fuego, mezcla el pimentón. Añade el sofrito y la patata troceada a las lentejas, ajusta de sal y cuece tapado hasta que la patata esté tierna. Si hace falta, añade caldo o agua caliente."
+        },
+        {
+          "title": "Termina y reposa · 3–5 min",
+          "text": "Apaga el fuego, mezcla la levadura nutricional y deja reposar 3–5 min."
+        }
+      ],
+      "preparationNotes": {
+        "amounts": "Cantidades recibidas por UNA ración y guardadas sin dividir; defaultServings 1. Caldo 350–400 ml, valor editable inicial 375 ml. Reserva aproximada de un quinto: 75 ml por ración con el valor inicial. No duplicar caldo ni ingredientes.",
+        "estimates": "Pesos orientativos añadidos para calcular: media cebolla pequeña 50 g, cuarto de puerro 25 g, diente de ajo pelado 4 g. Referencias FEN; puerro como referencia para la alternativa cebolleta. No son pesos confirmados por el usuario. Especias agrupadas en dos entradas según su momento de uso, negligibleNutrition true.",
+        "method": "Resumen en cuatro pasos del método aportado; hidratación 5–10 min, cocción 25–35 + 15–20 min, reposo 3–5 min. Tiempos no escalables. Total orientativo del usuario 45–60 min. Preferir recordatorios breves, sin obviedades, en futuras recetas.",
+        "photo": "Pendiente de foto del plato."
       }
     }
   ],
